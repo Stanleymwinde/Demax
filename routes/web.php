@@ -25,6 +25,12 @@ Route::get('/properties', [UserController::class, 'properties'])->name('properti
 Route::get('/services', [UserController::class, 'services'])->name('services');
 Route::get('/about', [UserController::class, 'about'])->name('about');
 Route::get('/contact', [UserController::class, 'contact'])->name('contact');
+Route::get('/propertysingle/{id}', [UserController::class, 'show'])->name('propertysingle');
+Route::get('/productsingle/{id}', [UserController::class, 'get'])->name('productsingle');
+
 
 //send mail
 Route::post('/contact', [ContactController::class, 'send'])->name('contact.send');
+
+//show single product
+// Route::get('/singleproperty', [UserController::class, 'get'])->name('propertysingle1');

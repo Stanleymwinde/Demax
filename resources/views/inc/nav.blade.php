@@ -3,12 +3,16 @@
         <div class="menu-bg-wrap">
             <div class="site-navigation">
                 {{-- <a href="index.html" class="logo m-0 float-start">Property</a> --}}
-                <img src="/images/demax_logo.png" alt="alt">
+                <a href="{{ route('home') }}"> <img src="/images/logo.jpg" alt="alt" style="width: 100px" class="logo"
+                        height="50px" margin=0;></a>
 
                 <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
                     <li class="active"><a href="{{ route('home') }}">Home</a></li>
-                    <li class="has-children">
-                        <a href="{{ route('properties') }}">Properties</a>
+                    <li><a href="{{ route('about') }}">About</a></li>
+                    <li><a href="{{ route('properties') }}">Products</a></li>
+
+                    {{-- <li class="has-children">
+                        <a href="{{ route('properties') }}">Products</a>
                         <ul class="dropdown">
                             <li><a href="#">Buy Property</a></li>
                             <li><a href="#">Sell Property</a></li>
@@ -19,11 +23,11 @@
                                     <li><a href="#">Sub Menu Two</a></li>
                                     <li><a href="#">Sub Menu Three</a></li>
                                 </ul>
-                            </li>
-                        </ul>
                     </li>
+                </ul>
+                </li> --}}
                     <li><a href="{{ route('services') }}">Services</a></li>
-                    <li><a href="{{ route('about') }}">About</a></li>
+
                     <li><a href="{{ route('contact') }}">Contact Us</a></li>
                 </ul>
 

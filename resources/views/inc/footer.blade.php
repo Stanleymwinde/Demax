@@ -4,12 +4,15 @@
             <div class="col-lg-4">
                 <div class="widget">
                     <h3>Contact</h3>
-                    <address>43 Raymouth Rd. Baltemoer, London 3910</address>
+                    <address>Show Room: 1st Floor Plaza 2,000
+                        <br> Mombasa Road
+                        Nairobi, Kenya
+                    </address>
                     <ul class="list-unstyled links">
-                        <li><a href="tel://11234567890">+254(731)-659-139 +254 0731 659 139</a></li>
+                        <li><a href="tel://11234567890">+254(731)-659-139</a></li>
                         {{-- <li><a href="tel://11234567890">+1(123)-456-7890</a></li> --}}
                         <li>
-                            <a href="mailto:info@mydomain.com">info@demaxltd.com</a>
+                            <a href="mailto:info@demaxltd.com">info@demaxltd.net</a>
                         </li>
                     </ul>
                 </div>
@@ -18,7 +21,7 @@
             <!-- /.col-lg-4 -->
             <div class="col-lg-4">
                 <div class="widget">
-                    <h3>Sources</h3>
+                    <h3>Quick Links</h3>
                     <ul class="list-unstyled float-start links">
                         <li><a href="{{ route('about') }}">About us</a></li>
                         <li><a href="{{ route('services') }}">Services</a></li>
@@ -38,39 +41,29 @@
                 </div>
                 <!-- /.widget -->
             </div>
-            <!-- /.col-lg-4 -->
+            <!-- /.col-lg-4, and links -->
             <div class="col-lg-4">
                 <div class="widget">
                     <h3>Links</h3>
-                    <ul class="list-unstyled links">
-                        <li><a href="#">Our Vision</a></li>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Contact us</a></li>
-                    </ul>
-
-                    <ul class="list-unstyled social">
-                        <li>
-                            <a href="#"><span class="icon-instagram"></span></a>
-                        </li>
-                        <li>
-                            <a href="#"><span class="icon-twitter"></span></a>
-                        </li>
-                        <li>
-                            <a href="#"><span class="icon-facebook"></span></a>
-                        </li>
-                        <li>
-                            <a href="#"><span class="icon-linkedin"></span></a>
-                        </li>
-                        <li>
-                            <a href="#"><span class="icon-pinterest"></span></a>
-                        </li>
-                        <li>
-                            <a href="#"><span class="icon-dribbble"></span></a>
-                        </li>
-                    </ul>
+                    <div class="fb-page" data-href="https://www.facebook.com/DEMAXEA/" data-tabs="timeline"
+                        data-width="" data-height="" data-small-header="false" data-adapt-container-width="true"
+                        data-hide-cover="false" data-show-facepile="true">
+                        <blockquote cite="https://www.facebook.com/DEMAXEA/" class="fb-xfbml-parse-ignore"><a
+                                href="https://www.facebook.com/DEMAXEA/">Demax East Africa</a></blockquote>
+                    </div>
                 </div>
                 <!-- /.widget -->
             </div>
+
+            {{-- fb embedded --}}
+            {{-- <div class="widget">
+                <div class="fb-page" data-href="https://www.facebook.com/DEMAXEA/" data-tabs="timeline" data-width=""
+                    data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false"
+                    data-show-facepile="true">
+                    <blockquote cite="https://www.facebook.com/DEMAXEA/" class="fb-xfbml-parse-ignore"><a
+                            href="https://www.facebook.com/DEMAXEA/">Demax East Africa</a></blockquote>
+                </div>
+            </div> --}}
             <!-- /.col-lg-4 -->
         </div>
         <!-- /.row -->
@@ -90,7 +83,7 @@
                         document.write(new Date().getFullYear());
                     </script>
                     . All Rights Reserved. &mdash; Designed with love by
-                    <a href="https://qualitybrands.co.ke">KenbrasQualityBrands</a>
+                    <a href="https://qualitybrands.co.ke">Demax ICT</a>
                     <!-- License information: https://qualitybrands.co.ke/license/ -->
                 </p>
                 {{-- <div>

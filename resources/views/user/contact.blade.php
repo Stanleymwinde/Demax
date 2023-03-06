@@ -69,7 +69,7 @@
                         <div class="email mt-4">
                             <i class="icon-envelope"></i>
                             <h4 class="mb-2">Email:</h4>
-                            <p>info@demaxltd.co</p>
+                            <p>info@demaxltd.com</p>
                         </div>
 
                         <div class="phone mt-4">
